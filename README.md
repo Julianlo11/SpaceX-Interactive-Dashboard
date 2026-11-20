@@ -2,7 +2,23 @@
 
 ## Descripción
 
-Proyecto de análisis y visualización de datos de lanzamientos de SpaceX mediante Python y Dash. Desarrollé un dashboard interactivo que permite explorar los resultados de los lanzamientos según el sitio, la masa de carga y la versión del propulsor.
+Este proyecto consiste en el desarrollo de un dashboard interactivo para explorar y analizar datos históricos de lanzamientos de SpaceX mediante Python, Plotly y Dash.
+
+El objetivo es identificar patrones en los resultados de los lanzamientos y facilitar la exploración de variables como el sitio de lanzamiento, la masa de carga y la versión del propulsor.
+
+La aplicación permite interactuar con los datos mediante filtros dinámicos y visualizar los resultados a través de gráficos.
+
+## Objetivos
+
+- Analizar el desempeño histórico de los lanzamientos de SpaceX.
+
+- Comparar los resultados entre diferentes sitios de lanzamiento.
+
+- Explorar la relación entre la masa de carga y el resultado del lanzamiento.
+
+- Examinar el desempeño según la versión del propulsor.
+  
+-  Construir un dashboard interactivo utilizando Plotly Dash.
 
 ## Tecnologías utilizadas
 
@@ -46,6 +62,16 @@ El análisis se realizó sobre 56 registros de lanzamientos.
 - v1.1: 6.67% (15 lanzamientos).
 - v1.0: 0% (5 lanzamientos).
 
+## Conclusiones
+
+El análisis de los datos permitió identificar diferencias en el desempeño histórico de los lanzamientos según el sitio, la masa de carga y la versión del propulsor.
+
+KSC LC-39A presentó la mayor tasa de éxito entre los sitios analizados, con un 76,92 %. Por otra parte, CCAFS SLC-40 concentró el mayor volumen de operaciones, con 33 lanzamientos.
+
+En cuanto a la masa de carga, el intervalo de 3000 a 4000 kg obtuvo la mayor tasa de éxito, con un 72,73 %. Respecto a las versiones de los propulsores, FT registró 66,67 % de éxito en 24 lanzamientos.
+
+Estos resultados permiten explorar patrones históricos y comparar el desempeño de los lanzamientos. Sin embargo, las tasas observadas son descriptivas y no demuestran por sí mismas relaciones causales.
+
 ## Estructura del proyecto
 
 ```text
@@ -72,7 +98,7 @@ https://github.com/Julianlo11/SpaceX-Interactive-Dashboard
 Ingresar al proyecto:
 
 ```bash
-cd SpaceX-Interactive-Dashboard
+https://spacex-interactive-dashboard.onrender.com/
 ```
 
 Crear y activar el entorno virtual:
