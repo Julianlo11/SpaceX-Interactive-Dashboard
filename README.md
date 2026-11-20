@@ -66,7 +66,7 @@ SpaceX-Interactive-Dashboard/
 Clonar el repositorio:
 
 ```bash
-git clone URL_DEL_REPOSITORIO
+git clonehttps://github.com/Julianlo11/SpaceX-Interactive-Dashboard/edit/main/README.md
 ```
 
 Ingresar al proyecto:
